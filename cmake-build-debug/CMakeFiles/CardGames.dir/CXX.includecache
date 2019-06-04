@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/djones/CLionProjects/CardGames/Card.h
+iostream
+-
+array
+-
+
+/Users/djones/CLionProjects/CardGames/Deck.h
+vector
+-
+Card.h
+/Users/djones/CLionProjects/CardGames/Card.h
+
+/Users/djones/CLionProjects/CardGames/Pile.h
+vector
+-
+Card.h
+/Users/djones/CLionProjects/CardGames/Card.h
+
+/Users/djones/CLionProjects/CardGames/main.cpp
+iostream
+-
+sstream
+-
+string
+-
+Deck.h
+/Users/djones/CLionProjects/CardGames/Deck.h
+Pile.h
+/Users/djones/CLionProjects/CardGames/Pile.h
+
