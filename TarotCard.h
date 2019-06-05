@@ -6,7 +6,7 @@
 #define CARDGAMES_TAROT_CARD_H
 #include "Card.h"
 
-class Tarot_card : Card {
+class TarotCard : Card {
 
 };
 

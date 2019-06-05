@@ -4,6 +4,7 @@
 #define CARDGAMES_DECK_H
 
 #include <vector>
+#include "Pile.h"
 #include "Card.h"
 
 class Deck {
