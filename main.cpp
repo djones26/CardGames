@@ -12,7 +12,26 @@ void runTests();
 // MAIN
 
 int main( int argc, char** argv ) {
-    runTests();
+    //runTests();
+
+    Deck deck;
+
+    cout << deck << endl << endl << endl;
+
+    deck.shuffle();
+
+    cout << deck << endl;
+
+    Pile pile;
+
+    for ( int i = 0; i < 10; i++ ) {
+        Card* card = deck.drawCard();
+        pile.addCard(card);
+    }
+
+    cout << "Deck size: " << deck.numOfAvailableCards() << endl;
+    cout << "Pile size: " << pile.getSize() << endl;
+
 
     return 0;
 }
